@@ -1,0 +1,45 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333; /* Dark gray text color */
+    padding: 20px; /* Add padding around the content */
+}
+
+header {
+    background: #007bff; /* Bootstrap primary color */
+    color: #fff; /* White text color */
+    padding: 20px; /* Space inside header */
+    text-align: center; /* Center the text */
+}
+
+section {
+    background: #fff; /* White background for sections */
+    margin: 10px 0; /* Margin between sections */
+    padding: 20px; /* Padding inside sections */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h2 {
+    border-bottom: 2px solid #007bff; /* Underline for section headings */
+    padding-bottom: 10px; /* Space between heading and content */
+    margin-bottom: 20px; /* Margin below the heading */
+}
+
+.project {
+    margin-bottom: 15px; /* Space between projects */
+}
+
+footer {
+    text-align: center; /* Center the footer text */
+    margin-top: 20px; /* Space above footer */
+    padding: 10px 0; /* Padding inside footer */
+    color: #555; /* Slightly lighter gray for footer */
+}
