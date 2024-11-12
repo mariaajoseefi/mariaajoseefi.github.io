@@ -4,41 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Portfolio of Majo">
-    <title>Majo | Portfolio</title>
+    <title>Majo's Portfolio</title>
+    <link rel="icon" href="assets/icon.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Yatra+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to My Portfolio</h1>
-        <p>Hello! I'm Majo, a passionate developer focused on creating accessible and innovative software.</p>
+        <div class="header-content">
+            <span class="name">Majo</span>
+            <nav>
+                <div class="navbar">
+                    <ul class="nav-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
     </header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I'm a software developer with a background in programming and an interest in UI/UX design. My goal is to make technology accessible and enjoyable for everyone.</p>
-    </section>
+    <main>
+        <div class="first-flex-container">
+            <aside class="about-me">
+                <h2>A Little About Me</h2>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Project 1</h3>
-            <p>Description of your first project. Include the technologies used and what makes it unique!</p>
-        </div>
-        <div class="project">
-            <h3>Project 2</h3>
-            <p>Description of your second project. Mention your role and any challenges you overcame.</p>
-        </div>
-        <!-- Add more projects as needed -->
-    </section>
+                <h3>Where I'm From</h3>
+                <p>I was born and raised in Mexico. Growing up, my fascination with technology started early, fueled by my curiosity to understand how things worked. Now, I’m on a mission to make tech accessible and enjoyable for everyone.</p>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Feel free to reach out to me on <a href="mailto:mariajosefi2209@gmail.com">mariajosefi2209@gmail.com</a></p>
-    </section>
+                <h3>What I Used to Do</h3>
+                <p>When I was 13, I got my first job as a part-time assistant at a local tech store. I’ve done everything from troubleshooting computers to leading workshops for kids interested in coding.</p>
+
+                <h3>Where I'm At Now</h3>
+                <p>Today, I’m based in Mexico and work as a Software Engineer, with a special interest in UX design. I currently help create magical new ways to design products at <a href="https://diagram.com">Diagram</a> where I’m focused on crafting seamless user experiences that delight and empower.</p>
+
+                <h3>What I Do Now</h3>
+                <p>I design and develop user-centric applications, collaborating with cross-functional teams to bring ideas to life. I’m passionate about bridging the gap between technology and design, ensuring that every interaction is meaningful.</p>
+
+                <h3>What’s Important to Me</h3>
+                <p>Making technology more human-centric is my goal. I believe in the power of design to change lives and the importance of creating products that genuinely help users.</p>
+
+            </aside>
+        </div>
+        <div class="second-flex-container clearfix">
+            <aside class="music">
+                <h2>Currently Listening To</h2>
+                <div class="iframe-container">
+                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/42106BG4Tc9SxIrDFBziXE?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </div>
+            </aside>
+            <aside class="contact">
+                <h2>Contact</h2>
+                <p>Feel free to reach out at <a href="mailto:mariajosefi2209@gmail.com">mariajosefi2209@gmail.com</a></p>
+                <p>Also you can find me on my <a href="https://www.linkedin.com/in/mariajosefi/">Linkedin</a></p>
+            </aside>
+        </div>
+    </main>
+
+    <div id="star" class="overlay">
+        <img src="assets/star.png" alt="Star">
+    </div>
 
     <footer>
         <p>&copy; 2024 Majo. All rights reserved.</p>
     </footer>
+
+    <script src="script.js"></script>
+    
 </body>
 </html>
-
